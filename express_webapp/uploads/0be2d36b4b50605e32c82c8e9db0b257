@@ -1,0 +1,32 @@
+{
+  "activity": {
+    "date": "02/09/2022",
+    "description": "Parc du centre-ville -> Bibliothèque"
+  },
+  "data": [
+    {"time": "14:00:00", "cardio_frequency": 95, "latitude": 47.648600, "longitude": -2.779000, "altitude": 16},
+    {"time": "14:00:05", "cardio_frequency": 96, "latitude": 47.648630, "longitude": -2.779050, "altitude": 16},
+    {"time": "14:00:10", "cardio_frequency": 97, "latitude": 47.648660, "longitude": -2.779100, "altitude": 16},
+    {"time": "14:00:15", "cardio_frequency": 98, "latitude": 47.648690, "longitude": -2.779150, "altitude": 16},
+    {"time": "14:00:20", "cardio_frequency": 99, "latitude": 47.648720, "longitude": -2.779200, "altitude": 16},
+    {"time": "14:00:25", "cardio_frequency": 100, "latitude": 47.648750, "longitude": -2.779250, "altitude": 16},
+    {"time": "14:00:30", "cardio_frequency": 101, "latitude": 47.648780, "longitude": -2.779300, "altitude": 16},
+    {"time": "14:00:35", "cardio_frequency": 102, "latitude": 47.648810, "longitude": -2.779350, "altitude": 16},
+    {"time": "14:00:40", "cardio_frequency": 103, "latitude": 47.648840, "longitude": -2.779400, "altitude": 16},
+    {"time": "14:00:45", "cardio_frequency": 104, "latitude": 47.648870, "longitude": -2.779450, "altitude": 16},
+    {"time": "14:00:50", "cardio_frequency": 105, "latitude": 47.648900, "longitude": -2.779500, "altitude": 16},
+    {"time": "14:00:55", "cardio_frequency": 106, "latitude": 47.648930, "longitude": -2.779550, "altitude": 16},
+    {"time": "14:01:00", "cardio_frequency": 106, "latitude": 47.648960, "longitude": -2.779600, "altitude": 16},
+    {"time": "14:01:05", "cardio_frequency": 107, "latitude": 47.648990, "longitude": -2.779650, "altitude": 16},
+    {"time": "14:01:10", "cardio_frequency": 108, "latitude": 47.649020, "longitude": -2.779700, "altitude": 17},
+    {"time": "14:01:15", "cardio_frequency": 107, "latitude": 47.649050, "longitude": -2.779750, "altitude": 17},
+    {"time": "14:01:20", "cardio_frequency": 106, "latitude": 47.649080, "longitude": -2.779800, "altitude": 18},
+    {"time": "14:01:25", "cardio_frequency": 105, "latitude": 47.649110, "longitude": -2.779850, "altitude": 18},
+    {"time": "14:01:30", "cardio_frequency": 104, "latitude": 47.649140, "longitude": -2.779900, "altitude": 18},
+    {"time": "14:01:35", "cardio_frequency": 103, "latitude": 47.649170, "longitude": -2.779950, "altitude": 19},
+    {"time": "14:01:40", "cardio_frequency": 102, "latitude": 47.649200, "longitude": -2.780000, "altitude": 19},
+    {"time": "14:01:45", "cardio_frequency": 101, "latitude": 47.649230, "longitude": -2.780050, "altitude": 20},
+    {"time": "14:01:50", "cardio_frequency": 100, "latitude": 47.649260, "longitude": -2.780100, "altitude": 20},
+    {"time": "14:01:55", "cardio_frequency": 99, "latitude": 47.649290, "longitude": -2.780150, "altitude": 21}
+  ]
+}

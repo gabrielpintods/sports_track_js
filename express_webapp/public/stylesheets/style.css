@@ -1,0 +1,215 @@
+body {
+  background-image: url('/images/tudor.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0%;
+  color: #000;
+  font-family: Helvetica,system-ui,Arial,sans-serif;
+  font-size: 14px;
+}
+
+.logo {
+  font-size: 20px;
+}
+
+a, span {
+  text-decoration: none;
+  color: #242428;
+}
+
+h1, p, label{
+  color: white;
+}
+
+nav {
+  height: 4em;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 40px 10px 40px;
+  text-decoration: none;
+}
+
+.redirection {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.fichier {
+  cursor: pointer;
+  border: 1px solid #dfdfe8;
+  text-decoration: none;
+  padding: 10px 16px;
+  border-radius: 4px;
+  margin-right: 50px;
+}
+
+.connexion, .deconnexion{
+  cursor: pointer;
+  border: 1px solid #dfdfe8;
+  text-decoration: none;
+  padding: 10px 16px;
+  border-radius: 4px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+
+.enregistrement, .welcome{
+  margin: 60px auto;
+  width: 600px;
+  text-align: center ;
+}
+
+.activities {
+  margin: 60px auto;
+  width: 800px;
+  text-align: center ;
+}
+
+.import {
+  margin: 60px auto;
+  width: 600px;
+  text-align: center ;
+}
+
+.connexion:hover {
+  background-color: rgba(0,0,0,0.05);
+}
+
+.fichier:hover {
+  background-color: rgba(0,0,0,0.05);
+}
+
+.nom, .prenom, .naissance, .sexe, .taille, .poid, .mail, .pwd {
+  position: absolute;
+  clip: rect(0, 0, 0, 0);
+}
+
+.user-input{
+  border-radius: 4px;
+  font-size: 14px;
+  padding: 10px 16px;
+  width: 400px;
+}
+
+#titre {
+  background: rgba(0, 0, 0, 0.90);
+  padding: 1em;
+  margin: 0%;
+  border-radius: 3px;
+}
+
+form, .welcome-text, .options, .error-msg, .user-add-valid{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3em;
+  margin-bottom: 0%;
+  background-color: rgba(0, 0, 0, 0.75);
+}
+
+.activities {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3em;
+  margin-bottom: 0;
+  background-color: rgba(0, 0, 0, 0.75);
+  color: #CCCCCC;
+}
+
+.form-item {
+  margin-bottom: 25px;
+}
+
+.disclaimer {
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+  display: flex;
+  padding-right: 20%;
+  padding-left: 20%;
+}
+
+.disclaimer p a {
+  color: #dfdfe8;
+  text-decoration: none;
+}
+
+.enregistrement input {
+  background: rgba(0, 0, 0, 0.5);
+  border: 1px solid #666;
+  color: #CCC;
+}
+
+.enregistrement select{
+  background: rgba(0, 0, 0, 0.5);
+  border: 1px solid #666;
+  color: #CCC;
+}
+
+.btn {
+  background-color: #fc5200;
+  cursor: pointer;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  font-size: 14px;
+  width: 400px;
+  height: 40px;
+  transition: .4s linear;
+  position: relative;
+  color: white;
+  margin-bottom: 30px;
+}
+
+.btn:hover{
+  background-color: rgba(252,82,0,0.85);
+}
+
+::placeholder{
+  color: white;
+}
+
+option {
+  color: white;
+}
+
+.activities-table {
+  border-collapse: separate;
+  border-spacing: 0 5px;
+  margin-top: 20px;
+}
+
+.activities-table thead th {
+  font-weight: bold;
+  text-align: center;
+  padding: 10px 15px;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.activities-table tbody tr {
+  transition: background-color 0.3s;
+}
+
+.activities-table tbody tr:hover {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.activities-table tbody td {
+  padding: 10px 15px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.activities-table tbody tr:nth-child(odd) td {
+  background-color: rgba(0, 0, 0, 0.55);
+}
+
+.activities-table tbody tr:nth-child(even) td {
+  background-color: rgba(0, 0, 0, 0.45);
+}
+

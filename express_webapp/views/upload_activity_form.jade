@@ -1,0 +1,29 @@
+doctype html
+html(lang="fr")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        link(rel="stylesheet", href="stylesheets/style.css")
+        title Vos fichiers - SportsTrack
+
+    body
+        header.global-header
+            nav.nav-bar(role="navigation")
+                div.logo(title="Revenir à la page d'accueil SportsTrack")
+                    a(href="/main")
+                        span
+                            b SPORTSTRACK
+                div.connexion
+                    a(href="/disconnect")
+                        b Se déconnecter
+
+        div.import
+            h1#titre Importer un fichier JSON depuis votre ordinateur
+            form(action="", method="POST", enctype="multipart/form-data")
+                div.form-item
+                    label(for="file-import")
+                        b Importer votre fichier ici ->
+                    input(type="file", name="activity_file", required, accept=".json")
+                button.btn(type="submit")
+                    b Importer

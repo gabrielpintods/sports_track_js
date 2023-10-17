@@ -1,0 +1,46 @@
+doctype html
+html(lang="fr")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        link(rel="stylesheet", href="stylesheets/style.css")
+        title Mes Activités - SportsTrack
+
+    body
+        header.global-header
+            nav.nav-bar(role="navigation")
+                div.logo(title="Revenir à la page d'accueil SportsTrack")
+                    a(href="/main")
+                        span
+                            b SPORTSTRACK
+                div.deconnexion
+                    a(href="/disconnect")
+                        b Déconnexion
+
+        div.activities
+            h1 Mes Activités
+
+            table.activities-table
+                thead
+                    tr
+                        th Description
+                        th Date
+                        th Début
+                        th Arrivée
+                        th Durée
+                        th Moyenne BPM
+                        th Distance
+                        th Dénivelé
+
+                tbody
+                    each activity in activitiesDetails
+                        tr
+                            td= activity.description
+                            td= activity.date
+                            td= activity.startTime
+                            td= activity.endTime
+                            td= activity.duration
+                            td= activity.averageHeartRate
+                            td= activity.distance
+                            td= activity.altitude

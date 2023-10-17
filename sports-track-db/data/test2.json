@@ -1,0 +1,19 @@
+{
+    "activity": {
+        "date": "05/09/2022",
+        "description": "Gym -> Cafe"
+    },
+    "data": [
+        {"time": "14:00:00", "cardio_frequency": 95, "latitude": 47.645795, "longitude": -2.776900, "altitude": 20},
+        {"time": "14:00:05", "cardio_frequency": 94, "latitude": 47.647870, "longitude": -2.777811, "altitude": 21},
+        {"time": "14:00:10", "cardio_frequency": 97, "latitude": 47.647297, "longitude": -2.779220, "altitude": 22},
+        {"time": "14:00:15", "cardio_frequency": 93, "latitude": 47.647892, "longitude": -2.780068, "altitude": 20},
+        {"time": "14:00:20", "cardio_frequency": 92, "latitude": 47.648867, "longitude": -2.780944, "altitude": 19},
+        {"time": "14:00:25", "cardio_frequency": 96, "latitude": 47.649410, "longitude": -2.779145, "altitude": 18},
+        {"time": "14:00:30", "cardio_frequency": 98, "latitude": 47.650123, "longitude": -2.778500, "altitude": 17},
+        {"time": "14:00:35", "cardio_frequency": 100, "latitude": 47.650824, "longitude": -2.777950, "altitude": 18},
+        {"time": "14:00:40", "cardio_frequency": 101, "latitude": 47.651534, "longitude": -2.777400, "altitude": 19},
+        {"time": "14:00:45", "cardio_frequency": 102, "latitude": 47.652245, "longitude": -2.776850, "altitude": 20},
+        {"time": "14:00:50", "cardio_frequency": 99, "latitude": 47.652956, "longitude": -2.776300, "altitude": 21}
+    ]
+}

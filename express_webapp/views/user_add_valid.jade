@@ -1,0 +1,26 @@
+doctype html
+html(lang="fr")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        link(rel="stylesheet", href="stylesheets/style.css")
+        title Connexion - SportsTrack
+
+    body
+        header.global-header
+            nav.nav-bar(role="navigation")
+                div.logo(title="Revenir à la page d'accueil SportsTrack")
+                    a(href="/")
+                        span
+                            b SPORTSTRACK
+                div.connexion
+                    a(href="/user_add")
+                        b S'inscrire
+
+        div.enregistrement
+            h1#titre Votre inscription a bien été prise en compte, vous pouvez maintenant vous connectez.
+
+            div.user-add-valid
+                button.btn(onclick="window.location.href='/connect'", type="submit")
+                    b Se connecter
