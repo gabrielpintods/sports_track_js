@@ -3,8 +3,8 @@ const router = express.Router();
 const multer = require('multer');
 const uploads = multer({dest:'uploads/'});
 const fs = require('fs');
-const activity_dao = require('sports-track-db').activity_dao;
-const activity_entry_dao = require('sports-track-db').activity_entry_dao;
+const activity_dao = require('sports-track-db/activity_dao');
+const activity_entry_dao = require('sports-track-db/activity_entry_dao');
 
 /**
  * Handle GET request to the root of this route.
