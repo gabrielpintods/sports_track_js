@@ -1,0 +1,69 @@
+doctype html
+html
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        link(rel="stylesheet", href="stylesheets/style.css")
+        title Utilisateur - SportsTrack
+
+    body
+        header.global-header
+            nav.nav-bar(role="navigation")
+                div.logo(title="Revenir à la page d'accueil SportsTrack")
+                    a(href="/main")
+                        span
+                            b SPORTSTRACK
+                div.connexion
+                    a(href="/disconnect")
+                        b Se déconnecter
+
+        div.enregistrement
+            h1#titre Modifier vos informations personnelles
+            form(action="", method="POST")
+                .form-item
+                    label.nom(for="lname") Nom
+                    input.user-input(type="text", name="lastName", placeholder="Nom")
+
+                .form-item
+                    label.prenom(for="fname") Prénom
+                    input.user-input(type="text", name="firstName", placeholder="Prénom")
+
+                .form-item
+                    label.age(for="Age")
+                    input.user-input(type="text", name="age", placeholder="Age")
+
+                .form-item
+                    label.sexe(for="Sexe") Sexe
+                    select.user-input(name="sexe", id="sexe")
+                        option(value="", selected, disabled, hidden) Quel est votre sexe ?
+                        option(value="femme") femme
+                        option(value="homme") homme
+                        option(value="autre") autre
+
+                .form-item
+                    label.taille(for="taille") Taille
+                    input.user-input(type="number", name="height", placeholder="Taille (cm)")
+
+                .form-item
+                    label.poid(for="poids") Poid
+                    input.user-input(type="number", name="weight", placeholder="Poids (kg)")
+
+                .form-item
+                    label.mail(for="email") E-mail
+                    input.user-input(type="email", name="email", placeholder="E-mail", spellcheck="false")
+
+                .form-item
+                    label.pwd(for="password") Mot de passe
+                    input.user-input(type="password", name="pswd", placeholder="Mot de passe", required)
+
+                .form-item
+                    label.pwd(for="password") Mot de passe
+                    input.user-input(type="password", name="newPswd", placeholder="Nouveau mot de passe")
+
+                p
+                    | Avant de modifier vos informations personnelles,
+                    | vous devez obligatoirement renseigner votre mot de passe.
+
+                button.btn(type="submit")
+                    b Modifier

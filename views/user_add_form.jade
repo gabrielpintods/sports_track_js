@@ -1,0 +1,76 @@
+doctype html
+html(lang="fr")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        link(rel="stylesheet", href="stylesheets/style.css")
+        title Inscription - SportsTrack
+
+    body
+        header.global-header
+            nav.nav-bar(role="navigation")
+                div.logo(title="Revenir à la page d'accueil SportsTrack")
+                    a(href="/")
+                        span
+                            b SPORTSTRACK
+                div.connexion
+                    a(href="/connect")
+                        b Se connecter
+
+        div.enregistrement
+            h1#titre Inscrivez-vous sur SportTrack, et suivez vos activité sportives.
+
+            form(action="", method="POST")
+                div.form-item
+                    label.nom(for="lname") Nom
+                    input.user-input(type="text", name="lastName", placeholder="Nom", required)
+
+                div.form-item
+                    label.prenom(for="fname") Prénom
+                    input.user-input(type="text", name="firstName", placeholder="Prénom", required)
+
+                div.form-item
+                    label.sexe(for="Sexe") Sexe
+                    select.user-input(name="sexe", id="sexe")
+                        option(value="", selected, disabled, hidden) Quel est votre sexe ?
+                        option(value="femme") femme
+                        option(value="homme") homme
+                        option(value="autre") autre
+
+                div.form-item
+                    label.naissance(for="") Date de naissance
+                    input.user-input(type="date", name="birthdate", placeholder="Date de naissance", required)
+
+                div.form-item
+                    label.age(for="Age")
+                    input.user-input(type="text", name="age", placeholder="Age", required)
+
+                div.form-item
+                    label.taille(for="taille") Taille
+                    input.user-input(type="number", name="height", placeholder="Taille (cm)", required)
+
+                div.form-item
+                    label.poid(for="poids") Poid
+                    input.user-input(type="number", name="weight", placeholder="Poids (kg)", required)
+
+                div.form-item
+                    label.mail(for="email") E-mail
+                    input.user-input(type="email", name="email", placeholder="E-mail", spellcheck="false", required)
+
+                div.form-item
+                    label.pwd(for="password") Mot de passe
+                    input.user-input(type="password", name="pswd", placeholder="Mot de passe", required)
+
+                button.btn(type="submit")
+                    b S'inscrire
+
+                div.disclaimer
+                    p
+                        | En vous inscrivant sur Strava, vous acceptez les
+                        a(href="https://fr.wikipedia.org/wiki/Conditions_g%C3%A9n%C3%A9rales_d%27utilisation") condition d'utilisation.
+                        | Consultez notre
+                        a(href="https://fr.wikipedia.org/wiki/Politique_de_confidentialit%C3%A9#:~:text=Une%20politique%20de%20confidentialit%C3%A9%20est,donn%C3%A9es%20transmises%20par%20ses%20clients.") politique de confidentitalité.
+                    p
+                        | Vous êtes déjà membre ?
+                        a(href="/connect") Connexion
